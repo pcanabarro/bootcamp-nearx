@@ -1,14 +1,24 @@
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
 
 contract Counter {
-    uint256 public number;
+    // uint8 = 0 - 2^(8-1) = 128
+    // uint256 = 0 - 2^(256-1) = a lot
+    uint8 number;
 
-    function setNumber(uint256 newNumber) public {
+    function getNumber() public returns(uint8) {
+        return number;
+    }
+
+    function setNumber(uint8 newNumber) public {
         number = newNumber;
     }
 
     function increment() public {
         number++;
     }
+
+    // function deposit() public payable {
+    //     msg.value; //Get ETH amount sent
+    // }
 }

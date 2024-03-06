@@ -1,3 +1,0 @@
-[submodule "SlaContract/lib/forge-std"]
-	path = SlaContract/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
