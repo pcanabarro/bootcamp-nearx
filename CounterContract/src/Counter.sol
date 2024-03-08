@@ -6,7 +6,7 @@ contract Counter {
     // uint256 = 0 - 2^(256-1) = a lot
     uint8 number;
 
-    function getNumber() public returns(uint8) {
+    function getNumber() public view returns(uint8) {
         return number;
     }
 

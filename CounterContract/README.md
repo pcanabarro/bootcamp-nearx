@@ -1,4 +1,4 @@
-# Contract
+# CounterContract
 
 ### Data types
 
