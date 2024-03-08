@@ -2,7 +2,7 @@
 
 This folder is destinated to create manually an ERC-20 token contract, learning basics knowledge of how a token is created and defined.
 
-Normally we use tested and audited libraries when want to deploy on production (Mainnet or Testnet).
+Normally we use tested and audited libraries when want to deploy on production (Mainnet or Testnet). This contract may have secutiry vulnerabilities
 
 ### NOTES
 
