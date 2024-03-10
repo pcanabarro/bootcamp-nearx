@@ -16,6 +16,17 @@ git clone https://github.com/pcanabarro/bootcamp-nearx.git
 anvil -b 10
 ```
 
+### Solidity Notes
+__All variables__
+- There is no null ou undefined value on solidity, every var has their own default value ((U)int = 0, bool = false)
+- You can't create a function with the same var name
+- Reference types need memory location
+
+__Fixed Point Numbers__
+- ufixed128x18 => 128bits with 18 decimals points
+- Good practice is assign decimals points in you contract
+- Most decimals used is 18
+
 ### NOTES
 
 __EIP__ - Ethereum Improvement Proposal
