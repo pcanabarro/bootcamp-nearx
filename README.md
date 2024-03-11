@@ -48,4 +48,5 @@ __Blockachain EVM-Based__
 
 - EVM: Ethereum Virtual Machine
 - JVM: Java Virtual Machine
+
 EVM is a virtual machine where you Solidity code is compiled and it can run in Ethereum blockchain.
