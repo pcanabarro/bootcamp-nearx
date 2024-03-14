@@ -22,10 +22,10 @@ contract Token {
   mapping(address => mapping(address => uint256)) allowances;
   // | key                                        | key/value | value   |
   // | address                                    | address   | uint256 |
-  // | 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 | 0x15...65 | 23       |
-  // | 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 | 0x99...dc | 11       |
+  // | 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 | 0x15...65 | 23      |
+  // | 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 | 0x99...dc | 11      |
   // | 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc | 0x29...1a | 52      |
-  // | 0x976EA74026E726554dB657fA54763abd0C3a0aa9 | 0x93...d2 | 31       |
+  // | 0x976EA74026E726554dB657fA54763abd0C3a0aa9 | 0x93...d2 | 31      |
 
   constructor(string memory _name, string memory _symbol) {
       name = _name;
